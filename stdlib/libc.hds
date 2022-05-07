@@ -7,6 +7,7 @@ type long = i64
 
 extern def puts(*Byte): Void = puts;
 extern def exit(CInt): Void = exit;
+extern def abort(): Void = abort
 extern def malloc(Size): *mut Void = malloc;
 extern def free(*mut Void): Void = free;
 extern def strlen(*Byte): usize = strlen;
